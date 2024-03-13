@@ -299,8 +299,8 @@ devDependencies:
     specifier: ^13.0.3
     version: 13.3.0
   next-router-mock:
-    specifier: ^0.7.4
-    version: 0.7.5(next@13.5.6)(react@18.2.0)
+    specifier: ^0.9.12
+    version: 0.9.12(next@13.5.6)(react@18.2.0)
   nginx-linter:
     specifier: ^0.6.3
     version: 0.6.3
@@ -7861,9 +7861,8 @@ packages:
       - supports-color
     dev: false
 
-  /next-router-mock@0.7.5(next@13.5.6)(react@18.2.0):
-    resolution: {integrity: sha512-Seglw0lCHfNyZzPIr6KBt5hp/xIIDP/49oD6D7S21j4MGKCXCu95d9zErVrn+XybK3bGz6U+RhK1R+yxyfLMrw==}
-    deprecated: Published as 0.8.0 instead
+  /next-router-mock@0.9.12(next@13.5.6)(react@18.2.0):
+    resolution: {integrity: sha512-PzKn70RSqO50GHyYyhd4WJb9I526Abfq2VDP+YPV8yqlaR38OKtQAcWr3njR75UG+Ik6HououZHm7ucxl6LSnA==}
     peerDependencies:
       next: '>=10.0.0'
       react: '>=17.0.0'
