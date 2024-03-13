@@ -164,8 +164,8 @@ devDependencies:
     specifier: ^14.4.3
     version: 14.5.2(@testing-library/dom@8.20.1)
   '@types/apollo-upload-client':
-    specifier: ^17.0.1
-    version: 17.0.5(@types/react@18.2.65)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^18.0.0
+    version: 18.0.0(@types/react@18.2.65)(react-dom@18.2.0)(react@18.2.0)
   '@types/bcryptjs':
     specifier: ^2.4.2
     version: 2.4.6
@@ -2345,8 +2345,8 @@ packages:
     dependencies:
       '@types/estree': 1.0.5
 
-  /@types/apollo-upload-client@17.0.5(@types/react@18.2.65)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-rPKHaE4QNd06LNtBgz6hfntVO+pOQMS2yTcynrzBPg9+a/nbtJ2gus5KgzRp2rqfzmnKEc/sRGjLen/9Ot0Z2A==}
+  /@types/apollo-upload-client@18.0.0(@types/react@18.2.65)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-cMgITNemktxasqvp6jiPj15dv84n3FTMvMoYBP1+xonDS+0l6JygIJrj2LJh85rShRzTOOkrElrAsCXXARa3KA==}
     dependencies:
       '@apollo/client': 3.9.6(@types/react@18.2.65)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
       '@types/extract-files': 13.0.1
