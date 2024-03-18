@@ -127,7 +127,7 @@ jobs:
       #     key: ${{ needs.generate-dotenv.outputs.cache-key }}
       - id: generate-dotenv
         name: Generate .env file
-        uses: iacobfred/generate-dotenv@v0.3.1
+        uses: iacobfred/generate-dotenv@v0.3.5
         with:
           output-path: .env
           template-paths: |
@@ -155,7 +155,7 @@ jobs:
       #     key: ${{ needs.generate-dotenv.outputs.cache-key }}
       - id: generate-dotenv
         name: Generate .env file
-        uses: iacobfred/generate-dotenv@v0.3.1
+        uses: iacobfred/generate-dotenv@v0.3.5
         with:
           output-path: .env
           template-paths: |
