@@ -61,7 +61,7 @@ jobs:
       modified-files: ${{ steps.changed-files.outputs.modified_files }}
       all-changed-files: ${{ steps.changed-files.outputs.all_changed_files }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Get changed files
@@ -76,7 +76,7 @@ jobs:
       cache-key: ${{ steps.generate-dotenv.outputs.cache-key }}
     steps:
       - name: Check out main branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - id: generate-dotenv
         name: Generate .env file
         uses: iacobfred/generate-dotenv@v0.3.5
@@ -109,7 +109,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 2
       - uses: pnpm/action-setup@v2
@@ -147,7 +147,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out main branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       # - name: Restore dotenv
       #   uses: actions/cache@v3
       #   with:
